@@ -131,6 +131,7 @@ function App() {
 						<a
 							className="h-10 w-10 rounded-sm border border-slate-600 bg-slate-200 text-black transition-colors hover:bg-slate-400 disabled:bg-slate-300 dark:border-0 dark:bg-gray-800 dark:text-slate-100 dark:hover:bg-gray-600 flex justify-center"
 							href="https://github.com/AFCMS/wordle"
+							aria-label="GitHub Repository"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
