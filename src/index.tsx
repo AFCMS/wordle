@@ -2,8 +2,12 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 
 import { render } from "preact";
+import { Analytics } from "@vercel/analytics/react";
 
 import "./index.css";
 import App from "./App";
 
-render(<App/>, document.getElementById("root") as HTMLElement)
+render(<>
+	<Analytics />
+	<App />
+</>, document.getElementById("root") as HTMLElement);
