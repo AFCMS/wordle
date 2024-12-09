@@ -108,7 +108,7 @@ function App() {
 							New
 						</button>
 						<h1
-							className={`text-center text-xl font-bold transition-colors ${(() => {
+							className={`text-center text-xl font-bold transition-colors select-none ${(() => {
 								if (hasWon()) {
 									return "text-green-600";
 								} else if (hasLost()) {
