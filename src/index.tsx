@@ -1,14 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+// SPDX-FileCopyrightText: 2024 AFCMS <afcm.contact@gmail.com>
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+import { render } from "preact";
+
 import "./index.css";
 import App from "./App";
 
-const root = ReactDOM.createRoot(
-	document.getElementById("root") as HTMLElement
-);
-
-root.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>
-);
+render(<App/>, document.getElementById("root") as HTMLElement)

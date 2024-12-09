@@ -1,50 +1,24 @@
 {
-  "name": "react-wordle",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^6.1.2",
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.4.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "stylelint": "^15.11.0",
-    "web-vitals": "^3.4.0"
-  },
-  "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.4",
-    "autoprefixer": "^10.4.15",
-    "eslint": "^8.55.0",
-    "eslint-plugin-jsonc": "^2.9.0",
-    "postcss": "^8.4.32",
-    "prettier": "^3.1.1",
-    "prettier-plugin-tailwindcss": "^0.5.9",
-    "tailwindcss": "^3.3.3",
-    "vite": "^4.4.12",
-    "vite-plugin-svgr": "^3.2.0",
-    "vite-tsconfig-paths": "^4.2.0"
-  }
+    "name": "wordle",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "dependencies": {
+        "@preact/preset-vite": "^2.9.3",
+        "@tailwindcss/vite": "^4.0.0-beta.6",
+        "@vitejs/plugin-react": "^4.3.4",
+        "postcss": "^8.4.49",
+        "preact": "^10.25.1",
+        "prettier": "^3.4.2",
+        "prettier-plugin-tailwindcss": "^0.6.9",
+        "tailwindcss": "4.0.0-beta.6",
+        "typescript": "^5.7.2",
+        "vite": "^6.0.3"
+    },
+    "scripts": {
+        "start": "vite",
+        "build": "tsc -b && vite build",
+        "serve": "vite preview"
+    },
+    "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
 }

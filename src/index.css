@@ -1,14 +1,6 @@
-body {
-	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-		Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+/*
+ * SPDX-FileCopyrightText: 2024 AFCMS <afcm.contact@gmail.com>
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
 
-	@apply bg-white transition-colors dark:bg-black;
-}
-
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
-}
+@import "tailwindcss";

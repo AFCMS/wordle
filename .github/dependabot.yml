@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2024 AFCMS <afcm.contact@gmail.com>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 ---
 version: 2
 updates:
@@ -5,7 +8,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-  - package-ecosystem: github-actions
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: daily
+      interval: "daily"
