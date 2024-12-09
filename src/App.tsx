@@ -102,7 +102,7 @@ function App() {
 
 					<div className="flex justify-between w-full">
 						<button
-							className="h-10 w-10 rounded-sm border border-slate-600 bg-slate-200 text-black transition-colors hover:bg-slate-400 disabled:bg-slate-300 dark:border-0 dark:bg-gray-800 dark:text-slate-100 dark:hover:bg-gray-600"
+							className="h-10 w-10 rounded-sm border border-slate-600 bg-slate-200 text-black transition-colors hover:bg-slate-400 disabled:bg-slate-300"
 							onClick={reset_game}
 						>
 							New
@@ -114,7 +114,7 @@ function App() {
 								} else if (hasLost()) {
 									return "text-red-600";
 								} else {
-									return "text-black dark:text-slate-100";
+									return "text-black";
 								}
 							})()}`}
 						>
@@ -129,7 +129,7 @@ function App() {
 							})()}
 						</h1>
 						<a
-							className="h-10 w-10 rounded-sm border border-slate-600 bg-slate-200 text-black transition-colors hover:bg-slate-400 disabled:bg-slate-300 dark:border-0 dark:bg-gray-800 dark:text-slate-100 dark:hover:bg-gray-600 flex justify-center"
+							className="h-10 w-10 rounded-sm border border-slate-600 bg-slate-200 text-black transition-colors hover:bg-slate-400 disabled:bg-slate-300 flex justify-center"
 							href="https://github.com/AFCMS/wordle"
 							aria-label="GitHub Repository"
 						>
@@ -159,12 +159,13 @@ function App() {
 							type="text"
 							name="input"
 							id="input"
-							className="transition-color col-span-4 h-16 appearance-none rounded-sm border border-slate-600 bg-slate-200 pl-4 text-left text-black focus:outline-hidden dark:border-0 dark:bg-gray-800 dark:text-white"
+							className="transition-color col-span-4 h-16 appearance-none rounded-sm border border-slate-600 bg-slate-200 pl-4 text-left text-black focus:outline-hidden"
 							placeholder={
 								hasWon() || hasLost() ? "Try again?" : "Type a word here..."
 							}
 							value={input}
 							disabled={hasWon() || hasLost() || newWord}
+							maxLength={5}
 							onChange={(e) => {
 								if (
 									e.currentTarget.value.length <= 5 &&
@@ -183,7 +184,7 @@ function App() {
 							autoFocus
 						/>
 						<button
-							className="h-16 w-16 rounded-sm border border-slate-600 bg-slate-200 text-black transition-colors hover:bg-slate-400 disabled:bg-slate-300 dark:border-0 dark:bg-gray-800 dark:text-slate-100 dark:hover:bg-gray-600"
+							className="h-16 w-16 rounded-sm border border-slate-600 bg-slate-200 text-black transition-colors hover:bg-slate-400 disabled:bg-slate-300"
 							onClick={() => {
 								push_rows();
 							}}

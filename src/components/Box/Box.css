@@ -8,7 +8,7 @@
 /* Basic style */
 .case {
     @apply flex h-16 w-16 content-center items-center justify-center rounded-sm border border-slate-600
-    text-3xl text-black shadow-lg transition-colors dark:border-0 dark:border-white dark:bg-gray-800;
+    text-3xl text-black shadow-lg transition-colors;
 }
 
 /* Edited case */
