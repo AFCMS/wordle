@@ -9,7 +9,7 @@
         "@vercel/analytics": "^1.4.1",
         "@vitejs/plugin-react": "^4.3.4",
         "postcss": "^8.4.49",
-        "preact": "^10.25.1",
+        "preact": "^10.25.2",
         "prettier": "^3.4.2",
         "prettier-plugin-tailwindcss": "^0.6.9",
         "tailwindcss": "4.0.0-beta.7",
