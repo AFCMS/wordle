@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@preact/preset-vite':
         specifier: ^2.9.3
-        version: 2.9.3(@babel/core@7.26.0)(preact@10.25.2)(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))
+        version: 2.9.3(@babel/core@7.26.0)(preact@10.25.3)(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))
       '@tailwindcss/vite':
         specifier: ^4.0.0-beta.7
         version: 4.0.0-beta.7(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))
@@ -24,8 +24,8 @@ importers:
         specifier: ^8.4.49
         version: 8.4.49
       preact:
-        specifier: ^10.25.2
-        version: 10.25.2
+        specifier: ^10.25.3
+        version: 10.25.3
       prettier:
         specifier: ^3.4.2
         version: 3.4.2
@@ -773,8 +773,8 @@ packages:
     resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
     engines: {node: ^10 || ^12 || >=14}
 
-  preact@10.25.2:
-    resolution: {integrity: sha512-GEts1EH3oMnqdOIeXhlbBSddZ9nrINd070WBOiPO2ous1orrKGUM4SMDbwyjSWD1iMS2dBvaDjAa5qUhz3TXqw==}
+  preact@10.25.3:
+    resolution: {integrity: sha512-dzQmIFtM970z+fP9ziQ3yG4e3ULIbwZzJ734vaMVUTaKQ2+Ru1Ou/gjshOYVHCcd1rpAelC6ngjvjDXph98unQ==}
 
   prettier-plugin-tailwindcss@0.6.9:
     resolution: {integrity: sha512-r0i3uhaZAXYP0At5xGfJH876W3HHGHDp+LCRUJrs57PBeQ6mYHMwr25KH8NPX44F2yGTvdnH7OqCshlQx183Eg==}
@@ -860,9 +860,6 @@ packages:
   stack-trace@1.0.0-pre2:
     resolution: {integrity: sha512-2ztBJRek8IVofG9DBJqdy2N5kulaacX30Nz7xmkYF6ale9WBVmIy6mFBchvGX7Vx/MyjBhx+Rcxqrj+dbOnQ6A==}
     engines: {node: '>=16'}
-
-  tailwindcss@4.0.0-beta.6:
-    resolution: {integrity: sha512-eCCuMk3H65w4J/QWkjxfeWoBSKbCD3E6Uj2LA6Xkkl4eMa1MXuwVpIU1RXcLIp+BVsXGEZMP7i7uJig7KxfAXQ==}
 
   tailwindcss@4.0.0-beta.7:
     resolution: {integrity: sha512-9JXrCC5UVt2bjV9lrjO+B7MPY+bgpWCf5sPbu+Ih5rGvGE6STwA94N6Ah1xMa0Avzp48fB/S1l0vByTp2HEzAw==}
@@ -1158,13 +1155,13 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@preact/preset-vite@2.9.3(@babel/core@7.26.0)(preact@10.25.2)(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))':
+  '@preact/preset-vite@2.9.3(@babel/core@7.26.0)(preact@10.25.3)(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-development': 7.25.9(@babel/core@7.26.0)
-      '@prefresh/vite': 2.4.6(preact@10.25.2)(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))
+      '@prefresh/vite': 2.4.6(preact@10.25.3)(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.26.0)
       debug: 4.4.0
@@ -1180,20 +1177,20 @@ snapshots:
 
   '@prefresh/babel-plugin@0.5.1': {}
 
-  '@prefresh/core@1.5.3(preact@10.25.2)':
+  '@prefresh/core@1.5.3(preact@10.25.3)':
     dependencies:
-      preact: 10.25.2
+      preact: 10.25.3
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.6(preact@10.25.2)(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))':
+  '@prefresh/vite@2.4.6(preact@10.25.3)(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))':
     dependencies:
       '@babel/core': 7.26.0
       '@prefresh/babel-plugin': 0.5.1
-      '@prefresh/core': 1.5.3(preact@10.25.2)
+      '@prefresh/core': 1.5.3(preact@10.25.3)
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
-      preact: 10.25.2
+      preact: 10.25.3
       vite: 6.0.3(jiti@2.4.1)(lightningcss@1.28.2)
     transitivePeerDependencies:
       - supports-color
@@ -1547,7 +1544,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  preact@10.25.2: {}
+  preact@10.25.3: {}
 
   prettier-plugin-tailwindcss@0.6.9(prettier@3.4.2):
     dependencies:
@@ -1589,8 +1586,6 @@ snapshots:
   source-map@0.7.4: {}
 
   stack-trace@1.0.0-pre2: {}
-
-  tailwindcss@4.0.0-beta.6: {}
 
   tailwindcss@4.0.0-beta.7: {}
 
