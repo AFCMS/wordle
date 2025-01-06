@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@preact/preset-vite':
-        specifier: ^2.9.3
-        version: 2.9.3(@babel/core@7.26.0)(preact@10.25.2)(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))
+        specifier: ^2.9.4
+        version: 2.9.4(@babel/core@7.26.0)(preact@10.25.2)(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))
       '@tailwindcss/vite':
         specifier: ^4.0.0-beta.7
         version: 4.0.0-beta.7(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))
@@ -311,8 +311,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@preact/preset-vite@2.9.3':
-    resolution: {integrity: sha512-uVDSKsFnPa/bmRTAcPiYpTvC04T1lhIH2ho3CJZLYibwcwliElS/i64iyATZkgR4DJxSc/JwOCSQS4IF/a03OQ==}
+  '@preact/preset-vite@2.9.4':
+    resolution: {integrity: sha512-PpPnUlKUsbWZ2oBuAkAMnezhIYGsR7xi2EZcPjeTAjF1DhGl00IcPD1ZeXRFKp38i7Hk4kEdFlwpJ1525cAzpg==}
     peerDependencies:
       '@babel/core': 7.x
       vite: 2.x || 3.x || 4.x || 5.x || 6.x
@@ -861,9 +861,6 @@ packages:
     resolution: {integrity: sha512-2ztBJRek8IVofG9DBJqdy2N5kulaacX30Nz7xmkYF6ale9WBVmIy6mFBchvGX7Vx/MyjBhx+Rcxqrj+dbOnQ6A==}
     engines: {node: '>=16'}
 
-  tailwindcss@4.0.0-beta.6:
-    resolution: {integrity: sha512-eCCuMk3H65w4J/QWkjxfeWoBSKbCD3E6Uj2LA6Xkkl4eMa1MXuwVpIU1RXcLIp+BVsXGEZMP7i7uJig7KxfAXQ==}
-
   tailwindcss@4.0.0-beta.7:
     resolution: {integrity: sha512-9JXrCC5UVt2bjV9lrjO+B7MPY+bgpWCf5sPbu+Ih5rGvGE6STwA94N6Ah1xMa0Avzp48fB/S1l0vByTp2HEzAw==}
 
@@ -1158,7 +1155,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@preact/preset-vite@2.9.3(@babel/core@7.26.0)(preact@10.25.2)(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))':
+  '@preact/preset-vite@2.9.4(@babel/core@7.26.0)(preact@10.25.2)(vite@6.0.3(jiti@2.4.1)(lightningcss@1.28.2))':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/core': 7.26.0
@@ -1589,8 +1586,6 @@ snapshots:
   source-map@0.7.4: {}
 
   stack-trace@1.0.0-pre2: {}
-
-  tailwindcss@4.0.0-beta.6: {}
 
   tailwindcss@4.0.0-beta.7: {}
 

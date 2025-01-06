@@ -4,7 +4,7 @@
     "private": true,
     "type": "module",
     "dependencies": {
-        "@preact/preset-vite": "^2.9.3",
+        "@preact/preset-vite": "^2.9.4",
         "@tailwindcss/vite": "^4.0.0-beta.7",
         "@vercel/analytics": "^1.4.1",
         "@vitejs/plugin-react": "^4.3.4",
