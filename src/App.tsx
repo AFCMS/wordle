@@ -1,7 +1,7 @@
 // SPDX-FileCopyrightText: 2024 AFCMS <afcm.contact@gmail.com>
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-import { JSX } from "preact";
+import { type JSX } from "preact";
 import { useEffect, useState } from "preact/hooks";
 
 import Box from "./components/Box";
