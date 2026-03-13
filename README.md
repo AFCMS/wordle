@@ -14,11 +14,11 @@ A random word API url is configured in the `.env` file of the workspace. If you 
 To run the project and access it on port 5173:
 
 ```sh
-npm start
+pnpm run dev
 ```
 
 To make a production build:
 
 ```sh
-npm run build
+pnpm run build
 ```
