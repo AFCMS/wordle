@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@preact/preset-vite':
-        specifier: ^2.10.4
-        version: 2.10.4(@babel/core@7.29.0)(preact@10.29.0)(vite@8.0.1(@types/node@24.12.0)(jiti@2.6.1))
+        specifier: ^2.10.5
+        version: 2.10.5(@babel/core@7.29.0)(preact@10.29.0)(vite@8.0.1(@types/node@24.12.0)(jiti@2.6.1))
       '@tailwindcss/vite':
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.1(@types/node@24.12.0)(jiti@2.6.1))
@@ -171,8 +171,8 @@ packages:
   '@oxc-project/types@0.120.0':
     resolution: {integrity: sha512-k1YNu55DuvAip/MGE1FTsIuU3FUCn6v/ujG9V7Nq5Df/kX2CWb13hhwD0lmJGMGqE+bE1MXvv9SZVnMzEXlWcg==}
 
-  '@preact/preset-vite@2.10.4':
-    resolution: {integrity: sha512-L7RQRs2GiG0lLUz7JSg07vU6lhlzdIthH0eqYZmRR70tTB9ikKCq2LHr+PZzhzIOco3Dioi6P6e/fjAmDUMJbQ==}
+  '@preact/preset-vite@2.10.5':
+    resolution: {integrity: sha512-p0vJpxiVO7KWWazWny3LUZ+saXyZKWv6Ju0bYMWNJRp2YveufRPgSUB1C4MTqGJfz07EehMgfN+AJNwQy+w6Iw==}
     peerDependencies:
       '@babel/core': 7.x
       vite: 2.x || 3.x || 4.x || 5.x || 6.x || 7.x || 8.x
@@ -1026,7 +1026,7 @@ snapshots:
 
   '@oxc-project/types@0.120.0': {}
 
-  '@preact/preset-vite@2.10.4(@babel/core@7.29.0)(preact@10.29.0)(vite@8.0.1(@types/node@24.12.0)(jiti@2.6.1))':
+  '@preact/preset-vite@2.10.5(@babel/core@7.29.0)(preact@10.29.0)(vite@8.0.1(@types/node@24.12.0)(jiti@2.6.1))':
     dependencies:
       '@babel/core': 7.29.0
       '@babel/plugin-transform-react-jsx': 7.28.6(@babel/core@7.29.0)
